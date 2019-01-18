@@ -1,0 +1,22 @@
+{
+  "name": "pulse-adt-mqtt",
+  "version": "0.0.1",
+  "description": "Home Assistant ADT Pulse Bridge using MQTT",
+  "author": "Damien",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/damien67/damiensrepo"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^2.13.0",
+    "cheerio": "latest",
+    "q": "~1.0.1",
+    "request": "latest",
+    "tough-cookie": "^2.3.0"
+  }
+}
